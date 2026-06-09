@@ -21,7 +21,7 @@ st.markdown("### Real-Time Vehicle Detection, Tracking and Congestion Prediction
 
 model = YOLO("yolov8m.pt")
 
-video_path = "video/traffic.mp4"
+video_path = "traffic.avi"
 
 tracked_classes = [
     "car",
